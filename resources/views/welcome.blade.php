@@ -73,6 +73,7 @@
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
+                        <a href="{{ url('login/facebook') }}">Login with Facebook</a>
                     @endauth
                 </div>
             @endif
